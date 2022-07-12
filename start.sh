@@ -6,7 +6,7 @@ else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /TechnoMindz
 fi
-cd /Techno_Mindz
+cd /TechnoMindz
 pip3 install -U -r requirements.txt
 echo "Starting Elsa ❄️❄️ 5,4,3,2,1..."
 python3 bot.py
